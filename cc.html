@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="cc.css" rel="stylesheet"/>
+</head>
+<body>
+
+     <header>
+        <a href="#" class="logo">ActiveLink.</a>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <!-- <a href="#explore">Explore</a> -->
+            <a href="#about">Explore</a>
+            <a href="#contact">Contact</a>
+        </nav>
+     </header>
+
+     <section id="home" class="h-txt">
+      
+      <section id="explore">
+       
+        <div class="container">
+            <h2>Currency Converter</h2>
+        
+            <form>
+              <div class="amount">
+                <p style="color: black;">Enter Amount</p>
+                <input value="1" type="text" />
+              </div>
+              <div class="dropdown">
+                <div class="from">
+                  <p style="color: black;">From</p>
+                  <div class="select-container">
+                    <img src="https://flagsapi.com/US/flat/64.png" />
+                    <select name="from"></select>
+                  </div>
+                </div>
+                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                <div class="to">
+                  <p style="color: black;">To</p>
+                  <div class="select-container">
+                    <img src="https://flagsapi.com/IN/flat/64.png" />
+                    <select name="to"></select>
+                  </div>
+                </div>
+              </div>
+              <div class="msg">1USD = 80INR</div>
+              <button>Get Exchange Rate</button>
+            </form>
+          </div>
+     </section>
+</section>   
+
+     <section id="about">
+        <div class="footer">
+            <h3>find other countries</h3>
+            <div class="countries">
+              <ol>
+                <div class="one">
+                 <div class="count">
+                  <img  class="group2" height="55" width="55" src="https://flagsapi.com/IN/flat/64.png" alt="flag"> <li>IN</li> <a  target="_blank" href="https://www.oanda.com/currency-converter/en/currencies/majors/inr/">More Info....</a>
+                 </div>
+                 <div class="count">
+                  <img   class="group1" height="55" width="55" src="https://flagsapi.com/AE/flat/64.png" alt="flag"> <li>AED</li> <a  target="_blank" href="https://www.oanda.com/currency-converter/en/currencies/majors/aed/">More Info....</a>
+                 </div>
+                 <div class="count">
+                  <img  class="group2" height="55" width="55" src="https://flagsapi.com/CN/flat/64.png" alt="flag"> <li>CNY</li> <a target="_blank" href="https://www.oanda.com/currency-converter/en/currencies/majors/cny/">More Info....</a>
+                 </div>
+                 <div class="count">
+                  <img class="group1"   height="55" width="55" src="https://flagsapi.com/PH/flat/64.png" alt="flag"> <li>PHP</li> <a target="_blank" href="https://www.oanda.com/currency-converter/en/currencies/majors/php/">More Info....</a>
+                 </div>
+                 <div class="count">
+                  <img  class="group2"  height="55" width="55" src="https://flagsapi.com/HK/flat/64.png" alt="flag"> <li>HKD</li> <a  target="_blank" href="https://www.oanda.com/currency-converter/en/currencies/majors/hkd/">More Info....</a>
+                 </div>
+                  
+                 </div> 
+                 <div class="two">
+                  <div class="count">
+                    <img class="group1"  height="55" width="55" src="https://flagsapi.com/MX/flat/64.png" alt="flag"> <li>MXN</li> <a target="_blank" href="https://www.oanda.com/currency-converter/en/currencies/majors/mxn/">More Info....</a>
+                   </div>
+                  <div class="count">
+                    <img  class="group2" height="55" width="55" src="https://flagsapi.com/AU/flat/64.png" alt="flag"> <li>AUD</li> <a  target="_blank" href="https://www.oanda.com/currency-converter/en/currencies/majors/aud/">More Info....</a>
+                   </div>
+                  <div class="count">
+                    <img  class="group1" height="55" width="55" src="https://flagsapi.com/BR/flat/64.png" alt="flag"> <li>BRL</li> <a target="_blank " href="https://www.oanda.com/currency-converter/en/currencies/majors/brl/">More Info....</a>
+                   </div>
+                  <div class="count">
+                    <img class="group2"  height="55" width="55" src="https://flagsapi.com/JP/flat/64.png" alt="flag"> <li>JPY</li> <a target="_blank" href="https://www.oanda.com/currency-converter/en/currencies/majors/jpy/">More Info....</a>
+                   </div>
+                  <div  class="count">
+                    <img  class="group1" height="55" width="55" src="https://flagsapi.com/US/flat/64.png" alt="flag"> <li>USD</li> <a target="_blank" href="https://www.oanda.com/currency-converter/en/currencies/majors/usd/">More Info....</a>
+                   </div>
+                 </div>
+              </ol>
+            </div>
+     </section>
+ 
+  <section id="contact">
+    <h2 class="contact-heading">Contact Us</h2>
+  
+    <p class="contact-description">
+      Have a question, comment, or need assistance? Feel free to reach out to us using the form below or through the information provided.
+    </p>
+  
+    <form class="contact-form" action="mailto:your_email@example.com" method="post">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required placeholder="Enter your name">
+      </div>
+  
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email address">
+      </div>
+  
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required placeholder="Enter your message"></textarea>
+      </div>
+  
+      <button type="submit" class="contact-button">Send Message</button>
+    </form>
+  
+    <div class="contact-info">
+      <h3>Additional Contact Information</h3>
+      <ul>
+        <li>
+          <i class="fa fa-phone"></i>
+          <a href="tel:8881922193">8881922193</a>
+        </li>
+        <li>
+          <i class="fa fa-envelope"></i>
+          <a href="mailto:youremail@example.com">socialtren.23@gmail.com</a>
+        </li>
+        
+      </ul>
+    </div>
+  </section>
+ 
+  
+  
+    <script src="cc.js"></script>
+    <script src="cc-2.js"></script>
+    <script src="app-1.js"></script>
+  
+</body>
+</html>

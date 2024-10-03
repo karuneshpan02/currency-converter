@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currency Converter</title>
+  <link href="style.css" rel="stylesheet" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+</head>
+<body>
+ <div class="home">
+  <nav>
+    
+    <div class="logo">
+      <img src="your_logo.png" alt="Currency Converter Logo" style="height: 4rem"/>
+    </div>
+    <ul>
+      <li><a href="#home"  class="active">Home</a></li>
+      <li><a href="#about" id="about" class="nav-link" data-target="#about">About</a></li>
+      <li><a href="#contact" id="contact" class="nav-link" data-target="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h2>Currency Converter</h2>
+
+    <form>
+      <div class="amount">
+        <p>Enter Amount</p>
+        <input value="1" type="text" />
+      </div>
+      <div class="dropdown">
+        <div class="from">
+          <p>From</p>
+          <div class="select-container">
+            <img src="https://flagsapi.com/US/flat/64.png" />
+            <select name="from"></select>
+          </div>
+        </div>
+        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+        <div class="to">
+          <p>To</p>
+          <div class="select-container">
+            <img src="https://flagsapi.com/IN/flat/64.png" />
+            <select name="to"></select>
+          </div>
+        </div>
+      </div>
+      <div class="msg">1USD = 80INR</div>
+      <button>Get Exchange Rate</button>
+    </form>
+  </div>
+ </div>
+
+<div class="footer">
+  <h3>find other countries</h3>
+  <div class="countries">
+    <ol>
+      <div class="one">
+       <div class="count">
+        <img  class="group2" height="55" width="55" src="https://flagsapi.com/IN/flat/64.png" alt="flag"> <li>IN</li> <a  target="_blank" href="https://www.oanda.com/currency-converter/en/currencies/majors/inr/">More Info....</a>
+       </div>
+       <div class="count">
+        <img   class="group1" height="55" width="55" src="https://flagsapi.com/AE/flat/64.png" alt="flag"> <li>AED</li> <a  target="_blank" href="https://www.oanda.com/currency-converter/en/currencies/majors/aed/">More Info....</a>
+       </div>
+       <div class="count">
+        <img  class="group2" height="55" width="55" src="https://flagsapi.com/CN/flat/64.png" alt="flag"> <li>CNY</li> <a target="_blank" href="https://www.oanda.com/currency-converter/en/currencies/majors/cny/">More Info....</a>
+       </div>
+       <div class="count">
+        <img class="group1"   height="55" width="55" src="https://flagsapi.com/PH/flat/64.png" alt="flag"> <li>PHP</li> <a target="_blank" href="https://www.oanda.com/currency-converter/en/currencies/majors/php/">More Info....</a>
+       </div>
+       <div class="count">
+        <img  class="group2"  height="55" width="55" src="https://flagsapi.com/HK/flat/64.png" alt="flag"> <li>HKD</li> <a  target="_blank" href="https://www.oanda.com/currency-converter/en/currencies/majors/hkd/">More Info....</a>
+       </div>
+        
+       </div> 
+       <div class="two">
+        <div class="count">
+          <img class="group1"  height="55" width="55" src="https://flagsapi.com/MX/flat/64.png" alt="flag"> <li>MXN</li> <a target="_blank" href="https://www.oanda.com/currency-converter/en/currencies/majors/mxn/">More Info....</a>
+         </div>
+        <div class="count">
+          <img  class="group2" height="55" width="55" src="https://flagsapi.com/AU/flat/64.png" alt="flag"> <li>AUD</li> <a  target="_blank" href="https://www.oanda.com/currency-converter/en/currencies/majors/aud/">More Info....</a>
+         </div>
+        <div class="count">
+          <img  class="group1" height="55" width="55" src="https://flagsapi.com/BR/flat/64.png" alt="flag"> <li>BRL</li> <a target="_blank " href="https://www.oanda.com/currency-converter/en/currencies/majors/brl/">More Info....</a>
+         </div>
+        <div class="count">
+          <img class="group2"  height="55" width="55" src="https://flagsapi.com/JP/flat/64.png" alt="flag"> <li>JPY</li> <a target="_blank" href="https://www.oanda.com/currency-converter/en/currencies/majors/jpy/">More Info....</a>
+         </div>
+        <div  class="count">
+          <img  class="group1" height="55" width="55" src="https://flagsapi.com/US/flat/64.png" alt="flag"> <li>USD</li> <a target="_blank" href="https://www.oanda.com/currency-converter/en/currencies/majors/usd/">More Info....</a>
+         </div>
+       </div>
+    </ol>
+  </div>
+</div>
+ 
+  <section id="about" class="nav-link">
+    <h2>About Us</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod
+      odio at justo sollicitudin pretium. Donec vel justo eget leo ullamcorper hendrerit
+      sit amet ac odio. Maecenas ultrices, justo vel imperdiet gravida, urna magna
+      pellentesque lacus, vitae egestas quam magna nec magna. Donec vitae leo at
+      risus posuere rutrum ut at dolor.
+    </p>
+  </section>
+
+  <section id="contact" class="nav-link">
+    <h2>Contact Us</h2>
+    <p>Feel free to contact us at: </p>
+    <ul>
+      <li>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></li>
+    </ul>
+  </section>
+
+  <script src="app-2.js"></script>
+  <script src="app-1.js"></script>
+</body>
+</html>
